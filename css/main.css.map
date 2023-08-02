@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/blocks/_header.scss","../scss/blocks/_rabota.scss","../scss/blocks/_webcam.scss","../scss/blocks/_vapros.scss","../scss/blocks/_usloviya.scss","../scss/blocks/_about.scss","../scss/blocks/_form.scss","../scss/blocks/_footer.scss"],"names":[],"mappings":"AAAA;EACG;;;ACDH;EACI;;;ACDJ;EACI;;;ACDJ;EACI;;;ACDJ;EACI;;;ACDJ;EACI;;;ACDJ;EACI;;;ACDJ;EACI","file":"main.css"}
