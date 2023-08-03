@@ -1,4 +1,231 @@
-.header{
-   width: 1520px;
-  
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  width: 1515px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "REM", sans-serif;
+  .header-bg {
+    width: 1515px;
+    height: 900px;
+    background-image: url(/images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  & nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    height: 10%;
+    & .nav_main_menu {
+      list-style: none;
+      display: flex;
+      & li {
+        width: 230px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        color: #2f327d;
+        letter-spacing: 0.44px;
+        opacity: 0.8;
+        &:hover {
+          cursor: pointer;
+          color: #fc377e;
+        }
+      }
+    }
+    & button {
+      padding: 16px 32px;
+      border-radius: 80px;
+      background: #fc377e;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      box-shadow: 0px 8px 40px 0px rgba(210, 77, 101, 0.26);
+    }
+    & .menu_item {
+      display: none;
+    }
+  }
+  .header-hero {
+    display: flex;
+    margin-top: 50px;
+    width: 95%;
+    height: 600px;
+
+    .header-hero-left {
+      margin-left: 15px;
+      width: 50%;
+      height: 100%;
+
+      h1 {
+        color: #2f327d;
+        font-family: Gilroy;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72px;
+        span {
+          color: #fc377e;
+          font-family: Gilroy;
+          font-size: 56px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 72px;
+        }
+      }
+
+      h3 {
+        margin-top: 32px;
+        color: #2f327d;
+        font-family: Gilroy;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+
+        span {
+          color: #fc377e;
+          font-family: Gilroy;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 160%;
+        }
+      }
+
+      ul {
+        margin-top: 16px;
+        margin-left: 25px;
+        list-style-image: url(/images/header-point.png);
+        li {
+          color: #2f327d;
+          font-family: Gilroy;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          opacity: 0.8;
+        }
+      }
+      button {
+        margin-top: 20px;
+        padding: 24px 40px;
+        border-radius: 80px;
+        border: none;
+        background: #fc377e;
+        box-shadow: 0px 8px 40px 0px rgba(210, 77, 101, 0.26);
+        color: #fff;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.24px;
+      }
+    }
+
+    .header-hero-right {
+      position: relative;
+      width: 50%;
+      height: 100%;
+      img{
+        margin-top: -90px;
+        margin-left: -90px;
+        width: 950px;
+        height: 700px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    max-width: 370px;
+    height: 1230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .header-bg {
+      width: 100%;
+      height: 100%;
+    }
+    & nav {
+      display: flex;
+      align-items: center;
+      width: 95%;
+      justify-content: space-between;
+      & .nav_main_menu {
+        display: none;
+      }
+      & button {
+        display: none;
+      }
+      & .menu_item {
+        margin-right: 5px;
+        display: block;
+      }
+    }
+
+    .header-hero {
+      margin-top: 100px;
+      width: 370px;
+      .header-hero-left {
+        width: 4000px;
+        h1 {
+          line-height: 48px;
+          text-align: center;
+          font-size: 32px;
+          span {
+            font-size: 32px;
+          }
+        }
+
+        h3 {
+          margin-top: 470px;
+          width: 328px;
+          font-size: 20px;
+          line-height: 160%;
+          span {
+            width: 328px;
+            font-size: 20px;
+            line-height: 160%;
+          }
+        }
+        ul {
+          margin-top: 16px;
+          li {
+            font-size: 16px;
+          }
+        }
+        button {
+          margin-top: 30px;
+          margin-left: 5px;
+        }
+      }
+
+      .header-hero-right{
+        img{
+          margin-top: 150px;
+          margin-left: -410px;
+          width: 527px;
+          height: 384px;
+        }
+      }
+    }
+  }
 }
