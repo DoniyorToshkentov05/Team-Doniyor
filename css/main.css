@@ -235,23 +235,13 @@ header .header-hero .header-hero-right img {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-<<<<<<< HEAD
-* {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
-=======
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h1,
@@ -283,8 +273,7 @@ body {
 img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .container {
@@ -327,15 +316,9 @@ img {
 }
 
 .about__list-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .about__item {
@@ -343,8 +326,6 @@ img {
   font-weight: 400;
   line-height: 40px;
   color: #5B5B87;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -369,10 +350,7 @@ img {
 }
 @media screen and (max-width: 1420px) {
   .about__list-box {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .about__container {
     margin-top: 80px;
@@ -408,7 +386,12 @@ img {
     height: 24px;
   }
 }
->>>>>>> origin/Fayzulloh
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .form {
   margin: 0 auto;
   width: 1520px;
@@ -565,10 +548,17 @@ img {
   margin-top: -40px;
 }
 
-.icon {
+.icon2 {
   margin-left: -225px;
   margin-top: 55px;
   position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+.img-girl {
+  width: 200px;
+  height: 400px;
 }
 
 .btn__use {
@@ -622,6 +612,8 @@ img {
 .img__last {
   margin-left: 760px;
   margin-top: -915px;
+  width: 50%;
+  height: 50%;
 }
 
 @media (max-width: 1260px) {
@@ -686,4 +678,6 @@ img {
 }
 .footer {
   width: 1520px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
