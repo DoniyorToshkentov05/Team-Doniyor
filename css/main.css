@@ -28,11 +28,8 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 1000px;
-}
-
 .form {
+  margin: 0 auto;
   width: 1520px;
 }
 
@@ -309,3 +306,5 @@ body {
 .footer {
   width: 1520px;
 }
+
+/*# sourceMappingURL=main.css.map */
