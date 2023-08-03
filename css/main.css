@@ -19,7 +19,7 @@ header {
 header .header-bg {
   width: 1515px;
   height: 900px;
-  background-image: url(/images/header-bg.png);
+  background-image: url(/img/header-bg.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -108,7 +108,7 @@ header .header-hero .header-hero-left h3 span {
 header .header-hero .header-hero-left ul {
   margin-top: 16px;
   margin-left: 25px;
-  list-style-image: url(/images/header-point.png);
+  list-style-image: url(/img/header-point.png);
 }
 header .header-hero .header-hero-left ul li {
   color: #2f327d;

@@ -18,7 +18,7 @@ header {
   .header-bg {
     width: 1515px;
     height: 900px;
-    background-image: url(/images/header-bg.png);
+    background-image: url(/img/header-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -87,7 +87,7 @@ header {
           line-height: 72px;
         }
       }
-
+      
       h3 {
         margin-top: 32px;
         color: #2f327d;
@@ -110,7 +110,7 @@ header {
       ul {
         margin-top: 16px;
         margin-left: 25px;
-        list-style-image: url(/images/header-point.png);
+        list-style-image: url(/img/header-point.png);
         li {
           color: #2f327d;
           font-family: Gilroy;
