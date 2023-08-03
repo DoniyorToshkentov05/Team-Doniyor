@@ -236,9 +236,12 @@
 
 .img__last{
     margin-left: 760px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
     margin-top: -915px;
     width: 50%;
     height: 50%
+    
 }
 
 @media (max-width:1260px) {
