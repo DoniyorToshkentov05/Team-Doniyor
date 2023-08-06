@@ -224,7 +224,92 @@ header .header-hero .header-hero-right img {
 }
 
 .webcam {
-  width: 1520px;
+  width: 1920px;
+  height: 1200px;
+  margin: 0 auto;
+}
+.webcam .webvam__list {
+  width: 1515px;
+  height: 1200px;
+  background: #FFECEE;
+  margin: 0 auto;
+  gap: 50px;
+}
+.webcam .webvam__list .text {
+  width: 851px;
+  height: 152px;
+  margin: 0 auto;
+}
+.webcam .webvam__list .text h1 {
+  font-family: Gilroy;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: blue;
+}
+.webcam .webvam__list .text h1 span {
+  color: red;
+}
+.webcam .webvam__list .text p {
+  font-family: Gilroy;
+  font-family: Gilroy;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.webcam .webvam__list .item {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  background: white;
+  transform: rotate(45deg);
+}
+.webcam .webvam__list .item img {
+  width: 80px;
+  height: 80px;
+  transform: rotate(-45deg);
+}
+.webcam .webvam__list .item p {
+  text-align: center;
+  font-size: 20px;
+  transform: rotate(315deg);
+  color: #5B5B87;
+  margin-left: -53px;
+}
+.webcam .webvam__list .top__item {
+  width: 1500px;
+  height: 355px;
+  display: flex;
+  gap: 180px;
+  justify-content: center;
+  position: relative;
+  top: 300px;
+}
+.webcam .webvam__list .bottom__item {
+  width: 1500px;
+  height: 355px;
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  position: relative;
+  top: 220px;
+}
+.webcam .webvam__list .img {
+  width: 297px;
+  height: 297px;
+  position: relative;
+  top: 30px;
+  left: -2px;
 }
 
 .vapros {
