@@ -1,3 +1,153 @@
 .rabota{
-    width: 1520px;
+    width: 100%;
+    // border: 1px solid;
+    
+    .container{
+        width: 70%;
+        margin: auto;
+        // border: 1px solid red;
+        
+        .row{
+            margin-bottom: 20px;
+            .rabota_title{
+                h2{
+                    color: var(--dark-blue, #2F327D);
+                    text-align: center;
+                    /* H1 */
+                    font-family: Gilroy;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    // line-height: 72px; 
+                    span{
+                        color: var(--primary, #FC377E);
+                    }
+                }
+                p{
+                    color: var(--gray, #5B5B87);
+                    text-align: center;
+                    /* Subtitle */
+                    font-family: Gilroy;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    // line-height: 160%;
+                    margin-top: 12px;
+                }
+                
+            }
+        }
+        .row1{
+            padding: 10px;
+            margin: 10px;
+
+        
+
+            .rabota_info1{
+                display: flex;
+                .rabota_text{
+                   width: 50%;
+                   height: 90%;
+                   margin-top: 5%;
+                   
+                   img{
+                    width: 36px;
+                    height: 36px;
+                    left: 17%;
+                    position: absolute;
+                    z-index: -1;
+                   }
+
+                   h2{
+                    color: var(--dark-blue, #2F327D);
+                    /* H2 */
+                    font-family: Gilroy;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 160%;
+                    // z-index: 2;
+
+                    span{
+                        color: var(--primary, #FC377E);
+                    }
+                   }
+                   p{
+                    margin-top: 10px;
+                    color: var(--gray, #5B5B87);
+                    /* Body 1 */
+                    font-family: Gilroy;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+
+                    span{
+                        color: var(--gray, #5B5B87);
+                        font-family: Gilroy;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 20px;
+                    }
+                   }
+                   
+                }
+                .rabota_img{
+                    width: 40%;
+                    margin-left: 10%;
+                }
+            }
+            .rabota_info2{
+                display: flex;
+                .rabota_info2_left{
+                    width: 50%;
+                    margin-top: 5%;
+                }
+                .rabota_info2_right{
+                    width: 40%;
+                    margin-top: 10%;
+                    margin-left: 10%;
+                    h2{
+                        font-family: Gilroy;
+                        font-size: 21px;
+                        font-style: normal;
+                        font-weight: 700;
+                        word-spacing: 7px;
+                        line-height: 150%;
+                        color: #2F327D;
+
+                        span{
+                            color: var(--primary, #FC377E);
+                        }
+                    }
+                    .frame_1{
+                        display: flex;
+                        margin-top: 5%;
+                        ul{
+                            li{
+                                display: flex;
+                                align-items: center;
+                                margin-bottom: 5%;
+                                img{
+                                    width: 10%;
+                                }
+                                p{
+                                    color: var(--gray, #5B5B87);
+                                    /* Body 1 */
+                                    font-family: Gilroy;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    margin-left: 5px;
+                                    // line-height: 40px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+          
+    }   
 }
